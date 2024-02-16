@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sandeep Bandaru</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/3ef3559250.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --bg-clr: #6b7fba;
+  --white: #fff;
+  --rleft-bg: #9ab3eb;
+  --rright-bg: #8096d0;
+  --primary-text-clr: #525252;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: var(--bg-clr);
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--primary-text-clr);
+  padding: 0 20px;
+}
+
+h2 {
+  font-family: "Calligraffitti", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+  background: var(--white);
+}
+
+.resume .resume_left {
+  width: 270px;
+}
+
+.resume .resume_right {
+  background: var(--rright-bg);
+  width: calc(800px - 270px);
+}
+
+.resume_left .r_profile_pic,
+.resume_right .r_namerole {
+  width: 100%;
+  height: 260px;
+  padding: 35px;
+}
+
+.resume_left .r_profile_pic {
+  background: var(--rleft-bg);
+}
+
+.resume_left .r_profile_pic img {
+  width: 100%;
+}
+
+.resume_left .r_left_sub {
+  padding: 35px;
+}
+
+.resume_left .r_left_sub > div:not(:last-child),
+.resume_right .r_right_sub > div:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.resume_left .r_aboutme p {
+  text-align: center;
+}
+
+.resume_left .r_skills ul li,
+.resume_left .r_skills ul li p:first-child,
+.resume_left .r_hobbies ul li p:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.resume_left .r_skills ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.resume_left .r_skills ul li p:first-child,
+.resume_left .r_hobbies ul li p:first-child {
+  width: 45px;
+  height: 45px;
+  background: var(--rleft-bg);
+  margin-right: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.resume_left .r_hobbies ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume_left .r_hobbies ul li {
+  margin-bottom: 10px;
+}
+
+.resume_left .r_hobbies ul li p:hover {
+  background: var(--rright-bg);
+}
+
+.resume_right .r_namerole p {
+  font-family: "Calligraffitti", cursive;
+  font-size: 60px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.resume_right .r_namerole p:last-child {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.resume_right .r_info {
+  padding: 35px;
+  background: var(--white);
+}
+
+.resume_right .r_info ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume_right .r_info p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.resume_right .r_right_sub {
+  padding: 35px;
+  padding-bottom: 0;
+}
+
+.resume_right .r_right_sub p {
+  color: var(--white);
+}
+
+.resume_right .r_right_sub ul li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.resume_right .r_right_sub ul li div:first-child {
+  width: 25%;
+  margin-right: 15px;
+}
+
+.resume_right .r_right_sub ul li div:last-child {
+  width: 75%;
+}
+
+.resume_right .r_right_sub p:first-child {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+</style>
+<body>
+
+<section class="resume">
+	<div class="resume_left">
+	    <div class="r_profile_pic">
+	      <img src="/saaaaaaaaa.jpg" alt="profile_pic" width="100px" height="170px">
+	    </div>
+	    <div class="r_left_sub">
+	      <div class="r_aboutme">
+	        <h2>About me</h2>
+	        <p>Want to work with an organization that can give me ample
+				opportunities to grow so that I will be able to help in the growth of
+				that organization and will be able to enhance my skills and my
+				capabilities</p>
+	      </div>
+	      <div class="r_skills">
+	        <h2>Skills</h2>
+	        <ul>
+	          <li>
+	            <p><i class="fa-solid fa-code"></i></p>
+	            <p>Web Development</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-pen-nib"></i></p>
+	            <p>Web Designing</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-video"></i></p>
+	            <p>Python</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-headphones"></i></p>
+	            <p>C/C++</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-image"></i></p>
+	            <p>SQL</p>
+	          </li>
+	        </ul>
+	      </div>
+	      <div class="r_hobbies">
+	        <h2>Hobbies</h2>
+	        <ul>
+	          <li>
+	            <p><i class="fa-solid fa-football"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-plant-wilt"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-book"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-bicycle"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-chess"></i></p>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	</div>
+	<div class="resume_right">
+	    <div class="r_namerole">
+	      <p>Sandeep bandaru</p>
+	      <p class="role">Web Developer</p>
+	    </div>
+	    <div class="r_info">
+	      <ul>
+	        <li>
+	          <p>sandeep bandaru </p>
+	        </li>
+	        <li>
+	          <p>7207355143</p>
+	        </li>
+	      </ul>
+	    </div>
+	    <div class="r_right_sub">
+	      <div class="r_education">
+	        <h2>Education</h2>
+	        <ul>
+	          <li>
+	            <div class="r_ed_left">
+	              <p>2022-2026</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p>B.Tech</p>
+	              <p>Computer Science and Engineering</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p>2020-2022</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p>INTERMEDIATE</p>
+	              <p>MPC</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p>2018-2020</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p>9th-10th</p>
+	              <p>MPC</p>
+	            </div>
+	          </li>
+	        </ul>
+	      </div>
+	      <div class="r_jobs">
+	        <h2>Certifications</h2>
+	        <ul>
+	          <li>
+	            <div class="r_ed_left">
+	              <p>2023</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p> Joy Of Computing Using Python</p>
+	              <p>NPTEL</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p>2024 Feb</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p>Complete webdevopment Bootcamp</p>
+	              <p>UDEMY</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p>2024 Feb</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p>E-Sports</p>
+	              <p>Srm University AP</p>
+	            </div>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	</div>
+</section>
+</body>
+</html>
